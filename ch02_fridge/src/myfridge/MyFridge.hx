@@ -26,7 +26,10 @@ class MyFridge {
 					}
 				case "9":
 					Sys.println("bye bye");
+				default:
+					Sys.println("Option not recognized");
 			}
+			Sys.print("\n");
 		} while( choice != "9" );
 	}
 }

@@ -1,11 +1,16 @@
-### Haxe 2 Beginner's guide example's in HaXe 3
+### Motivation
+
+There are only 2 books about haxe in the market and both are already outdated. In addition there are not much more online resources about learning the newest Haxe version (version 3), which is not really something attractive for the newest interested people in the language.
+
+
+### "Haxe 2 Beginner's guide" examples and code, translated to HaXe 3
 
 This is a HaXe 3 port of the examples from the book "Haxe 2, Beginner's Guide".
-It is part of my learning of haxe, and I have no relation with the authors or copyright owners of the book.
+It is part of my learning and training of haxe language.
 
-There are only 2 books in the market about haxe and both are already outdated, and there are not much more online resources about learning new Haxe, which is not really something attractive for interested people in the language.
+### Disclaimer
 
-### Contributions
+I have no relation with the authors or copyright owners of the book.
 
 Since I am an <strike>absolute n00b</strike> Haxe beginner, I don't expect to make everything error free.
 Your feedback is welcome.
