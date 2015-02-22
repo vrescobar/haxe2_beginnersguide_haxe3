@@ -13,15 +13,16 @@ Since many libraries have changed and several things just do not compile anymore
 
 First download and install haxe from [its webpage](http://haxe.org/download/) following the official instructions.
 
-Install _node webkit_ for javascript and _hxcpp_ library for C++ the targets; neko should work out of the box.
+Install _node webkit_ for javascript, _hxcpp_ library C++ and _hxjava_ java targets. The neko is the only one which should work out of the box.
 
 ~~~sh
 $ haxelib setup
 $ haxelib install node-webkit
 $ haxelib install hxcpp
+$ haxelib install hxjava
 ~~~
 
-Remember that C++ will need later a C++ compiler such as gcc or g++. If that is a problem for you just follow the examples using neko.
+Remember that C++ will need later a C++ compiler such as gcc or g++, and jdk for java. If that is a problem for you just follow the examples using neko.
 
 All examples have been tested on Haxe 3.1.3.
 
