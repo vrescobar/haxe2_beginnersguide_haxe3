@@ -1,9 +1,11 @@
 import Sys;
 
 // This example is not in the book actually, but I wrote it to teach myself how exceptions
-// work in Haxe which I find still quite primitive compared to the python one.
+// work in Haxe which I find still quite primitive compared to the python exceptions.
 // 
-// I thought about share it here since it costed me some work to grasp the simplicity it brings.
+// I thought about share this example here since it costed me some work to grasp
+// the concept due the lack of documentation/examples online and my previous ideas from
+// other programming languages.
 
 class TestHaxe {
       public static function main(): Void {
@@ -30,7 +32,7 @@ class TestHaxe {
   	 		}
       }
       static function perform_division(a:Int, b: Int): Float {
-      	// Exceptions throws in a nested function are catched as well
+      	// Exceptions thrown in a nested function are catched as well
       	if (b == 0) throw "I cannot divide by 0!";
       	return (a/b);
       }
