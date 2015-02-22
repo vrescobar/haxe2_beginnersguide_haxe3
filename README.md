@@ -2,7 +2,9 @@
 
 There are only 2 books about haxe in the market and both are already outdated. In addition there are not much more online resources about learning the newest Haxe 3 version at the moment, which is not really something attractive for the newest interested people in the language.
 
-This is a HaXe 3 port of the examples from the book _Haxe 2: Beginner's Guide_ together with some notes I made about the differences with Haxe 3. Those examples make only sense with the reading of the book together, but since all them are haxe 2 only the book results to be not that much useful and actually quite frustrating also because of some typos in the source code.
+This is a HaXe 3 port of some source code examples from the book _Haxe 2: Beginner's Guide_ together with some notes I made about the differences with Haxe 3. Those examples make only sense with the reading of the book together, but since all them are haxe 2 only the book results to be not that much useful and actually quite frustrating also because of some typos in the source code.
+
+The examples that work out of the box with Haxe 3 or are just trivial to write have not been ported.
 
 Since many libraries have changed and several things just do not compile anymore I though about sharing my work with other readers from the book which would like to learn the theory explained there with up to date examples.
 
