@@ -9,7 +9,11 @@ haxe 3 documentation.
 
 class Example {
 	static function f (s: String): Void { 
+		#if !js
 		Sys.println("Hello from "+s);
+		#else
+		trace("Hello from "+s);
+		#end
 	}
 	public static function main(): Void{
 		var language:String;
@@ -17,8 +21,10 @@ class Example {
 		language = "java";
 		#elseif cpp
 		language = "cpp";
+		#elseif js
+		language = "javascript";
 		#else
-		language = "neko (probably)";
+		language = "neko";
 		#end
 		f(language);
 	}
