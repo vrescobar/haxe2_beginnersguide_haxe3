@@ -1,0 +1,43 @@
+<xml>
+<set name="HXCPP_API_LEVEL" value="311" />
+<files id="haxe">
+<compilerflag value="-Iinclude"/>
+  <file name="src/haxe/io/Eof.cpp">
+   <depend name="include/haxe/io/Eof.h"/>
+  </file>
+  <file name="src/Sys.cpp">
+   <depend name="include/Sys.h"/>
+  </file>
+  <file name="src/Std.cpp">
+   <depend name="include/Std.h"/>
+  </file>
+  <file name="src/Example.cpp">
+   <depend name="include/Date.h"/>
+   <depend name="include/Example.h"/>
+   <depend name="include/Sys.h"/>
+  </file>
+  <file name="src/Date.cpp">
+   <depend name="include/Date.h"/>
+  </file>
+  <file name="src/__boot__.cpp">
+  </file>
+  <file name="src/__files__.cpp">
+  </file>
+  <file name="src/__resources__.cpp">
+  </file>
+</files>
+<files id="__lib__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__lib__.cpp">
+   <depend name="include/Example.h"/>
+  </file>
+</files>
+<files id="__main__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__main__.cpp">
+   <depend name="include/Example.h"/>
+  </file>
+</files>
+<set name="HAXE_OUTPUT" value="Example" />
+<include name="${HXCPP}/build-tool/BuildCommon.xml"/>
+</xml>

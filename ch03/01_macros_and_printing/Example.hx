@@ -11,7 +11,8 @@ class Example {
 	
 	static function f (s: String): Void { 
 		var date:Date = Date.now();
-		var prs:String = "Hello from "+ s + ". It is " + date + ".";
+		// That is also an example of String interpolation calling local variables autocasted to Std.String
+		var prs:String = 'Hello from $s. Time is: ${date.getHours()}:${date.getMinutes()}. ';
 		#if !js
 		Sys.println(prs);
 		#else
