@@ -8,11 +8,14 @@ haxe 3 documentation.
 */
 
 class Example {
+	
 	static function f (s: String): Void { 
+		var date:Date = Date.now();
+		var prs:String = "Hello from "+ s + ". It is " + date + ".";
 		#if !js
-		Sys.println("Hello from "+s);
+		Sys.println(prs);
 		#else
-		trace("Hello from "+s);
+		trace(prs);
 		#end
 	}
 	public static function main(): Void{
