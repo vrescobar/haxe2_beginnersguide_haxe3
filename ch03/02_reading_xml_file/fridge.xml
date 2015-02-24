@@ -1,0 +1,11 @@
+<fridge color="yellow">
+	<meal type="fruit">Banana</meal>
+	<meal type="desert">Milk rice</meal>
+	<meal type="drink">Milk</meal>
+	<meal type="fruit" color="green">Tomato</meal>
+	<meal type="drink">Beer</meal>
+	<meal type="drink">Beer</meal>
+	<object type="glass">Coke Glass</object>
+	<meal type="drink">Beer</meal>
+	<meal type="desert">Cheese cake</meal>
+</fridge>
