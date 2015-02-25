@@ -2,9 +2,9 @@
 
 There are only 2 books about haxe in the market and both are already outdated. In addition there are not much more online resources about learning the newest Haxe 3 version at the moment, which is not really something attractive for the newest interested people in the language.
 
-This is a HaXe 3 port of some source code examples from the book _Haxe 2: Beginner's Guide_ together with some notes I made about the differences with Haxe 3. Those examples make only sense with the reading of the book together, but since all them are haxe 2 only the book results to be not that much useful and actually quite frustrating also because of some typos in the source code.
+This is a HaXe 3 port of some source code examples and exercices from the book _Haxe 2: Beginner's Guide_ together with some notes I made about the differences with Haxe 3 and the topics explained. Most of the code is related to the examples in the book but not explicitly the same. Those code examples make sense with the reading of the book together, but since the original exercices of the book are haxe 2 only the book results to be not that much useful and actually quite frustrating also because of some typos in the example.
 
-The examples that work out of the box with Haxe 3 or are just trivial to write have not been ported.
+The alternative examples and adaptation I provide work out of the box with Haxe 3. The original examples which are just trivial to write have not been ported.
 
 Since many libraries have changed and several things just do not compile anymore I though about sharing my work with other readers from the book which would like to learn the theory explained there with up to date examples.
 
@@ -39,6 +39,6 @@ Your feedback is welcome.
 
 ### Disclaimer
 
-This repository is part of my learning and training of haxe language and I would like to share it with other readers who cannot fully enjoy the book due the outdated source code or broken examples.
+This repository is part of my learning and training of haxe language and I would like to share it with other readers who cannot fully enjoy the book _Haxe 2: Beginner's Guide_ due the outdated source code or broken examples.
 
 
